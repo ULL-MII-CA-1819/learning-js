@@ -33,8 +33,8 @@
 #### Gopinav Codevolution Tutorials
 
   * [Electron js Tutorial Video list by Gopinav](https://www.youtube.com/watch?v=tqBi_Tou6wQ&list=PLC3y8-rFHvwiCJD3WrAFUrIMkGVDE0uqW)
-  * [Repo los ejemplos del tutorial"](https://github.com/ULL-ESIT-DSI-1819/build-a-desktop-app-with-electron) by Gopinav
-  * [Forked repo ULL-ESIT-DSI-1819/Electron-Tutorials-gopinav con los ejemplos del tutorial"](https://github.com/ULL-ESIT-DSI-1819/Electron-Tutorials-gopinav)
+  * [GH Repo con los ejemplos del tutorial](https://github.com/ULL-ESIT-DSI-1819/build-a-desktop-app-with-electron) by Gopinav
+  * [Forked repo ULL-ESIT-DSI-1819/Electron-Tutorials-gopinav con los ejemplos del tutorial](https://github.com/ULL-ESIT-DSI-1819/Electron-Tutorials-gopinav)
   * [Repo con mis versiones de los ejemplos del tutorial](https://github.com/ULL-ESIT-DSI-1819/crguezl-build-a-desktop-app-with-electron) en ULL-DSI-1819
 
 #### Cameron Nokes Tutorials
