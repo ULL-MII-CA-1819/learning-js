@@ -7,3 +7,7 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/nY5KxODo2K0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+
+#### Historia de JS
+
+* [Keep Betting at JS](https://youtu.be/ixzK0jqLO70) Kyle Simpson. JSCamp Barcelona. 2018

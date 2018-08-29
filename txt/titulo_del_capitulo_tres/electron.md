@@ -30,7 +30,12 @@
 
   La app [mojibar](https://github.com/muan/mojibar) puede que sea un buen ejemplo de como hacer una manubar app
 
+#### Gopinav Codevolution Tutorials
 
+  * [Electron js Tutorial Video list by Gopinav](https://www.youtube.com/watch?v=tqBi_Tou6wQ&list=PLC3y8-rFHvwiCJD3WrAFUrIMkGVDE0uqW)
+  * [Repo los ejemplos del tutorial"](https://github.com/ULL-ESIT-DSI-1819/build-a-desktop-app-with-electron) by Gopinav
+  * [Forked repo ULL-ESIT-DSI-1819/Electron-Tutorials-gopinav con los ejemplos del tutorial"](https://github.com/ULL-ESIT-DSI-1819/Electron-Tutorials-gopinav)
+  * [Repo con mis versiones de los ejemplos del tutorial](https://github.com/ULL-ESIT-DSI-1819/crguezl-build-a-desktop-app-with-electron) en ULL-DSI-1819
 
 #### Cameron Nokes Tutorials
 
@@ -51,6 +56,10 @@
 If you want to share your awesome app with the world, you will need to package it for easy download and installation.
     - [Electron 103](https://services.github.com/on-demand/electron/share-your-app/): Share Your App
 Recommendations for sharing your app with potential end users..
+
+#### Janez Cadez Tutorial *Building desktop applications with Electron*
+
+* [Building desktop applications with Electron*](https://www.youtube.com/watch?v=Kwi0eNbyW0g&list=PLaux2QRFlrWw6CtkgwCMPkLjqOyHKCCeR)
 
 #### IPC
 
