@@ -13,3 +13,4 @@
 * [gitHub for Atom](https://github.atom.io/) package repo and [web page](https://github.atom.io/) package
 * [git diff and Atom](https://youtu.be/YJ3yfQAKSzY YouTube Video
     - [git diff package](https://atom.io/packages/git-diff)
+    - [git diff tool package](https://atom.io/packages/git-diff)
