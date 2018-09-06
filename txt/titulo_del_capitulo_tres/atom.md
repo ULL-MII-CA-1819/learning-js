@@ -10,6 +10,7 @@
 
 * [GitHub and Atom](https://youtu.be/HqrkEVWBifw) YouTube Video
 * [git-plus package](https://atom.io/packages/git-plus)
+* [Version Control in Atom](https://flight-manual.atom.io/using-atom/sections/version-control-in-atom/)
 * [gitHub for Atom](https://github.atom.io/) package repo and [web page](https://github.atom.io/) package
 * [git diff and Atom](https://youtu.be/YJ3yfQAKSzY YouTube Video
     - [git diff package](https://atom.io/packages/git-diff)
