@@ -9,6 +9,7 @@
 ### Atom, Git  y Github
 
 * [GitHub and Atom](https://youtu.be/HqrkEVWBifw) YouTube Video
+* [Atom and git and GitHub](https://youtu.be/sb5o2WiNb-A) YouTube video by Mr. Kennedy
 * [git-plus package](https://atom.io/packages/git-plus)
 * [Version Control in Atom](https://flight-manual.atom.io/using-atom/sections/version-control-in-atom/)
 * [gitHub for Atom](https://github.atom.io/) package repo and [web page](https://github.atom.io/) package
