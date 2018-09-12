@@ -1,3 +1,7 @@
+### MDN Concurrency model and Event Loop
+
+[ ![stack-queue-heap](https://developer.mozilla.org/files/4617/default.svg) ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
+
 ### Sección Async JS {#secci-n-dos}
 
 #### EdX Course [Asynchronous Programming with Javascript](https://courses.edx.org/courses/course-v1:Microsoft+DEV234x+3T2017a/course/)
