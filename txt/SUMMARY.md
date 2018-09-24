@@ -7,6 +7,7 @@
   * [Resumen](resumen.md)
   * [Abstract](abstract.md)
 * [Capítulo: Editores](editores/atom.md)
+  * [Atom](editores/atom.md)
 * [Capítulo: Introducción](introduccion/README.md)
   * [Web Developer Road Map](introduccion/web-developer-roadmap.md)
   * [Introducción a JS](introduccion/seccion_tres.md)
