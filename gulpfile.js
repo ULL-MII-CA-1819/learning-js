@@ -11,13 +11,14 @@ const opn = require('opn');
 gulp.task('default', ['deploy']);
 
 gulp.task('build', shell.task([         // gitbook destroys everything in the _book directory!
+        'gitbook install',              // installa book plugins
         'gitbook build',                // build HTML in _book
       ],
       { verbose: true }
   )
 );
 
-gulp.task('deploy', ['build'], shell.task(
+gulp.task('push', shell.task(
     [ 'git add . ',
       'git ci -am "new version"', // commit changes
       //'git push --force origin master' // push changes to gitbook repo
@@ -25,6 +26,9 @@ gulp.task('deploy', ['build'], shell.task(
     ]
   )
 );
+
+
+gulp.task('deploy', ['build', 'push']);
 
 gulp.task('deploygb', shell.task(
       'git push gitbook master', // push changes to gitbook repo

@@ -1,6 +1,1 @@
-Set 
-```
-git remote add gitbook gitbookURL
-```
-
-Plantilla para las memorias de TFG de la ULL en  GitBook MarkDown
+En este enlace encontrará el [Despliegue de estas Notas y Apuntes para aprender Web Development](https://ull-mii-ca-1819.github.io/learning-js/_book/)
