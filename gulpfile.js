@@ -18,7 +18,7 @@ gulp.task('build', shell.task([         // gitbook destroys everything in the _b
   )
 );
 
-gulp.task('push', shell.task(
+gulp.task('push', ['build'], shell.task(
     [ 'git add . ',
       'git ci -am "new version"', // commit changes
       //'git push --force origin master' // push changes to gitbook repo
@@ -28,7 +28,7 @@ gulp.task('push', shell.task(
 );
 
 
-gulp.task('deploy', ['build', 'push']);
+gulp.task('deploy', ['push']);
 
 gulp.task('deploygb', shell.task(
       'git push gitbook master', // push changes to gitbook repo
