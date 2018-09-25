@@ -1,6 +1,7 @@
 ### Teletype for Atom
 
-* [Collaborate in Real Time in Atom Text Editor](https://youtu.be/C_JufDsP2Ng)
+* [teletype.atom.io](https://teletype.atom.io/)
+* [Collaborate in Real Time in Atom Text Editor](https://youtu.be/C_JufDsP2Ng) YouTube Video
 
 ### Atom, Git  y Github
 
