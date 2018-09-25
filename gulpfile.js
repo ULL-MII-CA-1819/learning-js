@@ -18,10 +18,8 @@ gulp.task('build', shell.task([         // gitbook destroys everything in the _b
   )
 );
 
-gulp.task('push', shell.task(
+gulp.task('push', [ 'build' ], shell.task(
     [
-      'gitbook install',              // install book plugins
-      'gitbook build',                // build HTML in _book
       'git add . ',
       'git ci -am "new version"', // commit changes
       //'git push --force origin master' // push changes to gitbook repo
@@ -51,10 +49,6 @@ gulp.task('apuntes', function() {
 gulp.task("pre-install", shell.task([ // global dependencies
       "npm i -g gitbook-cli",
 			"brew install hub"
-]));
-
-gulp.task("push", shell.task([ // push to github not to gitbook
-      'git ci -am "new version" && git push origin master',
 ]));
 
 gulp.task('serve', shell.task([         // gitbook destroys everything in the _book directory!
