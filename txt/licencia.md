@@ -1,5 +1,6 @@
 ## Licencia
 
+<!--
 #### Si NO quiere permitir que se compartan las adaptaciones de tu obra y NO quieres permitir usos comerciales de tu obra indica:
 
   ![C:\Users\Usuario\Desktop\memoriaTFG_1415_LaTeX\tfg\images\by-nc-sa_88x31.png](/assets/images/noadaptacion-nousocomercial.png)
@@ -7,11 +8,13 @@
   **© Esta obra está bajo una licencia de Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0 Internacional.**
 
 #### Si quiere permitir que se compartan las adaptaciones de tu obra mientras se comparta de la misma manera y NO quieres permitir usos comerciales de tu obra indica:
+-->
 
-  ![C:\Users\Usuario\Desktop\memoriaTFG_1415_LaTeX\tfg\images\by-nc_88x31.png](/assets/images/adaptaciones-misma-no-comercial.png)
+![C:\Users\Usuario\Desktop\memoriaTFG_1415_LaTeX\tfg\images\by-nc_88x31.png](/assets/images/adaptaciones-misma-no-comercial.png)
 
   **© Esta obra está bajo una licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional.**
 
+<!--
 #### Si quiere permitir que se compartan las adaptaciones de tu obra y NO quieres permitir usos comerciales de tu obra indica:
 
 ![C:\Users\Usuario\Desktop\memoriaTFG_1415_LaTeX\tfg\images\by-nc_88x31.png](/assets/images/adaptacion2-nousocomercial.png)
@@ -35,3 +38,4 @@
 ![C:\Users\Usuario\Desktop\memoriaTFG_1415_LaTeX\tfg\images\by_88x31.png](/assets/images/si-adaptacions-si-uso-comercial-cultura-libre.png)
 
 **© Esta obra está bajo una licencia de Creative Commons Reconocimiento 4.0 Internacional.**
+-->
