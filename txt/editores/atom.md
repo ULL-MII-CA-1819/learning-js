@@ -9,6 +9,18 @@
 * [Atom and git and GitHub](https://youtu.be/sb5o2WiNb-A) YouTube video by Mr. Kennedy
 * [git-plus package](https://atom.io/packages/git-plus)
 * [Version Control in Atom](https://flight-manual.atom.io/using-atom/sections/version-control-in-atom/)
+    <ul>
+    <li>
+    <kbd class="platform-all">Alt+G</kbd> <kbd class="platform-all">O</kbd> - Open file on GitHub</li>
+    <li>
+    <kbd class="platform-all">Alt+G</kbd> <kbd class="platform-all">B</kbd> - Open Blame view of file on GitHub</li>
+    <li>
+    <kbd class="platform-all">Alt+G</kbd> <kbd class="platform-all">H</kbd> - Open History view of file on GitHub</li>
+    <li>
+    <kbd class="platform-all">Alt+G</kbd> <kbd class="platform-all">C</kbd> - Copy the URL of the current file on GitHub to the clipboard</li>
+    <li>
+    <kbd class="platform-all">Alt+G</kbd> <kbd class="platform-all">R</kbd> - Branch compare on GitHub</li>
+    </ul>
 * [gitHub for Atom](https://github.atom.io/) package repo and [web page](https://github.atom.io/) package
 * [git diff and Atom](https://youtu.be/YJ3yfQAKSzY) YouTube Video
     - [git diff package](https://atom.io/packages/git-diff)
