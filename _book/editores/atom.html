@@ -698,6 +698,38 @@
 </ul>
 <p>Save it, and press <kbd>Cmd</kbd> <kbd>Alt</kbd> <kbd>B</kbd> (OS X) / <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>B</kbd> (Linux/Windows)
 and you should see the output of <code>echo Hello world</code>, which should be <code>Hello world</code> if all is correct.</p>
+<p>Pick your favorite format, save that file in your project root, and specify exactly
+how your project is built (example in <code>yml</code>)</p>
+<pre><code class="lang-yml"><span class="hljs-attr">cmd:</span> <span class="hljs-string">&quot;&lt;command to execute&gt;&quot;</span>
+<span class="hljs-attr">name:</span> <span class="hljs-string">&quot;&lt;name of target&gt;&quot;</span>
+<span class="hljs-attr">args:</span>
+<span class="hljs-bullet">  -</span> &lt;argument1<span class="hljs-string">&gt;
+  - &lt;argument2&gt;
+</span><span class="hljs-attr">sh:</span> <span class="hljs-literal">true</span>,
+<span class="hljs-attr">cwd:</span> &lt;current working directory for `cmd`<span class="hljs-string">&gt;
+</span><span class="hljs-attr">env:</span>
+<span class="hljs-attr">  VARIABLE1:</span> <span class="hljs-string">&quot;VALUE1&quot;</span>
+<span class="hljs-attr">  VARIABLE2:</span> <span class="hljs-string">&quot;VALUE2&quot;</span>
+<span class="hljs-attr">errorMatch:</span>
+<span class="hljs-bullet">  -</span> ^regexp1$
+<span class="hljs-bullet">  -</span> ^regexp2$
+<span class="hljs-attr">warningMatch:</span>
+<span class="hljs-bullet">  -</span> ^regexp1$
+<span class="hljs-bullet">  -</span> ^regexp2$
+<span class="hljs-attr">keymap:</span> &lt;keymap string<span class="hljs-string">&gt;
+</span><span class="hljs-attr">atomCommandName:</span> namespace:command
+<span class="hljs-attr">targets:</span>
+<span class="hljs-attr">  extraTargetName:</span>
+<span class="hljs-attr">      cmd:</span> <span class="hljs-string">&quot;&lt;command to execute&gt;&quot;</span>
+<span class="hljs-attr">      args:</span>
+      <span class="hljs-comment"># (any previous options are viable here except `targets` itself)</span>
+</code></pre>
+<p>Note that if <code>sh</code> is false <code>cmd</code> must only be the executable - no arguments here.  If the
+executable is not in your path, either fully qualify it or specify the path
+in you environment (e.g. by setting the <code>PATH</code> var appropriately on UNIX-like
+systems).</p>
+<p>If <code>sh</code> is true, it will use a shell (e.g. <code>/bin/sh -c</code>) on unix/linux, and command (<code>cmd /S /C</code>)
+on windows.</p>
 <h3 id="segundo-apartado-de-este-cap-tulo">Atom </h3>
 <ul>
 <li><a href="https://blog.github.com/2016-08-19-building-your-first-atom-plugin/" target="_blank">Building your first Atom plugin</a></li>
@@ -729,7 +761,7 @@ and you should see the output of <code>echo Hello world</code>, which should be 
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Capítulo: Herramientas","level":"1.2","depth":1,"next":{"title":"Atom","level":"1.2.1","depth":2,"path":"editores/atom.md","ref":"editores/atom.md","articles":[]},"previous":{"title":"Abstract","level":"1.1.5","depth":2,"path":"abstract.md","ref":"abstract.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-theme-gestalt","custom-favicon","youtube","-insert-logo-link","copy-code-button"],"license":"MIT","root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"youtube":{},"theme-gestalt":{"logo":"/assets/logo-ull.png","favicon":"/assets/favicon.ico","baseUrl":null,"excludeDefaultStyles":true,"doNotHideChildrenChapters":false},"insert-logo-link":{"src":"assets/logo-ull.jpg","url":"https://www.ull.es"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"/assets/images/favicon.ico","custom-favicon":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"ghPages":"https://ull-esit-gradoii-tfg.github.io/memoria-tfg-markdown-gitbook/_book/index.html","theme":"default","author":"ULL-ESIT-GRADOII-TFG","name":"Memoria","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"repo":"https://github.com/ULL-ESIT-GRADOII-TFG/memoria-tfg-markdown-gitbook","structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Memoria","language":"es","gitbook":"*","description":"Memoria para los TFG"},"file":{"path":"editores/atom.md","mtime":"2018-10-02T11:06:29.942Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-10-02T11:06:45.593Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Capítulo: Herramientas","level":"1.2","depth":1,"next":{"title":"Atom","level":"1.2.1","depth":2,"path":"editores/atom.md","ref":"editores/atom.md","articles":[]},"previous":{"title":"Abstract","level":"1.1.5","depth":2,"path":"abstract.md","ref":"abstract.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-theme-gestalt","custom-favicon","youtube","-insert-logo-link","copy-code-button"],"license":"MIT","root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"youtube":{},"theme-gestalt":{"logo":"/assets/logo-ull.png","favicon":"/assets/favicon.ico","baseUrl":null,"excludeDefaultStyles":true,"doNotHideChildrenChapters":false},"insert-logo-link":{"src":"assets/logo-ull.jpg","url":"https://www.ull.es"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":"/assets/images/favicon.ico","custom-favicon":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"ghPages":"https://ull-esit-gradoii-tfg.github.io/memoria-tfg-markdown-gitbook/_book/index.html","theme":"default","author":"ULL-ESIT-GRADOII-TFG","name":"Memoria","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"repo":"https://github.com/ULL-ESIT-GRADOII-TFG/memoria-tfg-markdown-gitbook","structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Memoria","language":"es","gitbook":"*","description":"Memoria para los TFG"},"file":{"path":"editores/atom.md","mtime":"2018-10-02T11:10:33.848Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2018-10-02T11:10:43.819Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

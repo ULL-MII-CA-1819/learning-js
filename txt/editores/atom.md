@@ -40,6 +40,43 @@ cmd: echo Hello world
 Save it, and press <kbd>Cmd</kbd> <kbd>Alt</kbd> <kbd>B</kbd> (OS X) / <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>B</kbd> (Linux/Windows)
 and you should see the output of `echo Hello world`, which should be `Hello world` if all is correct.
 
+Pick your favorite format, save that file in your project root, and specify exactly
+how your project is built (example in `yml`)
+
+```yml
+cmd: "<command to execute>"
+name: "<name of target>"
+args:
+  - <argument1>
+  - <argument2>
+sh: true,
+cwd: <current working directory for `cmd`>
+env:
+  VARIABLE1: "VALUE1"
+  VARIABLE2: "VALUE2"
+errorMatch:
+  - ^regexp1$
+  - ^regexp2$
+warningMatch:
+  - ^regexp1$
+  - ^regexp2$
+keymap: <keymap string>
+atomCommandName: namespace:command
+targets:
+  extraTargetName:
+      cmd: "<command to execute>"
+      args:
+      # (any previous options are viable here except `targets` itself)
+```
+
+Note that if `sh` is false `cmd` must only be the executable - no arguments here.  If the
+executable is not in your path, either fully qualify it or specify the path
+in you environment (e.g. by setting the `PATH` var appropriately on UNIX-like
+systems).
+
+If `sh` is true, it will use a shell (e.g. `/bin/sh -c`) on unix/linux, and command (`cmd /S /C`)
+on windows.
+
 ### Atom {#segundo-apartado-de-este-cap-tulo}
 
 * [Building your first Atom plugin](https://blog.github.com/2016-08-19-building-your-first-atom-plugin/)
