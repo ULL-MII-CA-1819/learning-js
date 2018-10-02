@@ -26,6 +26,20 @@
     - [git diff package](https://atom.io/packages/git-diff)
     - [git diff tool package](https://atom.io/packages/git-diff)
 
+### Atom Build package
+
+Automatically build your project inside your new favorite editor, Atom.
+
+  * <kbd>Cmd</kbd> <kbd>Alt</kbd> <kbd>B</kbd> / <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>B</kbd> / <kbd>F9</kbd> builds your project.
+
+  Create a file called `.atom-build.yml` (note the inital dot):
+```yml
+cmd: echo Hello world
+```
+
+Save it, and press <kbd>Cmd</kbd> <kbd>Alt</kbd> <kbd>B</kbd> (OS X) / <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>B</kbd> (Linux/Windows)
+and you should see the output of `echo Hello world`, which should be `Hello world` if all is correct.
+
 ### Atom {#segundo-apartado-de-este-cap-tulo}
 
 * [Building your first Atom plugin](https://blog.github.com/2016-08-19-building-your-first-atom-plugin/)
