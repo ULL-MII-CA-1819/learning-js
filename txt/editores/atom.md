@@ -1,7 +1,14 @@
-### Teletype for Atom
+### Pair Programming
+
+#### Teletype for Atom
 
 * [teletype.atom.io](https://teletype.atom.io/)
 * [Collaborate in Real Time in Atom Text Editor](https://youtu.be/C_JufDsP2Ng) YouTube Video
+* [Code together in real time with Teletype for Atom](http://blog.atom.io/2017/11/15/code-together-in-real-time-with-teletype-for-atom.html)
+
+#### AtomPair
+
+* [AtomPair](https://atom.io/packages/atom-pair)
 
 ### Atom, Git  y Github
 
@@ -42,6 +49,8 @@ and you should see the output of `echo Hello world`, which should be `Hello worl
 
 Pick your favorite format, save that file in your project root, and specify exactly
 how your project is built (example in `yml`)
+
+#### Specify a custom build command
 
 ```yml
 cmd: "<command to execute>"
