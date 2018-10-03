@@ -13,6 +13,7 @@
 ### Atom, Git  y Github
 
 * [Documentation of the github-package for atom](https://flight-manual.atom.io/using-atom/sections/github-package/)
+* [Vídeo en YouTube:  Using GitHub with Atom](https://youtu.be/7au7l1qa2so) 
 * [GitHub and Atom](https://youtu.be/HqrkEVWBifw) YouTube Video
 * [Atom and git and GitHub](https://youtu.be/sb5o2WiNb-A) YouTube video by Mr. Kennedy
 * [git-plus package](https://atom.io/packages/git-plus)
