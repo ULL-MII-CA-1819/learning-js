@@ -38,11 +38,11 @@ gulp.task('deploygb', shell.task(
 );
 
 gulp.task('browse', shell.task( // Open a browser in the github book repo
-  'hub browse ULL-ESIT-DSI-1819/ull-esit-dsi-1819-github.io'
+  'hub browse'
 ));
 
 gulp.task('apuntes', function() {
-  return opn('https://ull-esit-dsi-1819.github.io/_book/');
+  return opn('https://ull-mii-ca-1819.github.io/learning-js/_book/');
   } // Open web browser in the github deployment of this book
 );
 
