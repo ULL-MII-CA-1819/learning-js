@@ -13,7 +13,7 @@
 ### Atom, Git  y Github
 
 * [Documentation of the github-package for atom](https://flight-manual.atom.io/using-atom/sections/github-package/)
-* [Vídeo en YouTube:  Using GitHub with Atom](https://youtu.be/7au7l1qa2so) 
+* [Vídeo en YouTube:  Using GitHub with Atom](https://youtu.be/7au7l1qa2so)
 * [GitHub and Atom](https://youtu.be/HqrkEVWBifw) YouTube Video
 * [Atom and git and GitHub](https://youtu.be/sb5o2WiNb-A) YouTube video by Mr. Kennedy
 * [git-plus package](https://atom.io/packages/git-plus)
@@ -35,7 +35,7 @@
     - [git diff package](https://atom.io/packages/git-diff)
     - [git diff tool package](https://atom.io/packages/git-diff)
 
-### Atom Build package
+### Building: Atom Build package
 
 Automatically build your project inside your new favorite editor, Atom.
 
@@ -88,6 +88,9 @@ systems).
 If `sh` is true, it will use a shell (e.g. `/bin/sh -c`) on unix/linux, and command (`cmd /S /C`)
 on windows.
 
-### Atom {#segundo-apartado-de-este-cap-tulo}
+### Packages in Atom {#segundo-apartado-de-este-cap-tulo}
 
+* [Atom Packages](https://flight-manual.atom.io/using-atom/sections/atom-packages/)
 * [Building your first Atom plugin](https://blog.github.com/2016-08-19-building-your-first-atom-plugin/)
+* [CREATE YOUR FIRST ATOM PACKAGE](https://blog.eleven-labs.com/en/create-atom-package/)
+* [How to Write Atom Packages Using Vanilla JavaScript](https://www.sitepoint.com/write-atom-packages-using-vanilla-javascript/)
