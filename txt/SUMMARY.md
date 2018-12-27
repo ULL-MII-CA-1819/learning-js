@@ -8,6 +8,7 @@
   * [Abstract](abstract.md)
 * [Capítulo: Herramientas](editores/atom.md)
   * [Atom](editores/atom.md)
+  * [VisualStudio](editores/visualstudio.md)
   * [Codacy](calidad/codacy.md)
 * [Capítulo: Async JS](async-js/async-js.md)
 * [Capítulo: Web Development](web-development/README.md)
